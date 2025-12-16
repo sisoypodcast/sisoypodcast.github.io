@@ -290,6 +290,11 @@ hr{
     align-items: center;
     background-color: #523d54;
     }
+.BEP1{display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-cuarto);
+    }
 .btn-ver {
     display: inline-block;
     padding: 14px 28px;
@@ -328,11 +333,9 @@ hr{
     text-align: center;
 }
 .kick{
-    padding-bottom: 40px;
     display: flex;
     justify-content: center
 }
-
 .sub-uno{
     width: 100%;
     display: flex;
@@ -340,7 +343,6 @@ hr{
     padding-top: 40px;
     padding-bottom: 20px;
 }
-
 .sub-uno h2{
     font-family: var(--fuente-subtitulos);
     font-size: var(--tam-subtitulos-P);
@@ -447,7 +449,7 @@ hr{
     background-color: var(--color-tercero);
 }
 footer{
-  grid-area: footer;
+    grid-area: footer;
     background: linear-gradient(90deg,rgba(234, 134, 120, 1) 0%, rgba(240, 183, 92, 1) 100%);
     padding-top: 20px;
     font-family: var(--fuente-texto);
@@ -460,6 +462,7 @@ footer h1{
 }
 footer p{
     font-size: var(--tam-texto-P);
+    text-align: center;
 }
 footer a{
   font-size: var(--tam-texto-P);
